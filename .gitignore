@@ -1,0 +1,17 @@
+# Private runtime data — Instagram session, DMs, history
+session.json
+config.json
+download_history.json
+message_cache.json
+*.pkl
+downloads/
+
+# PyInstaller output
+build/
+dist/
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
