@@ -6,9 +6,9 @@ I edit a lot of reference material that friends and collaborators send me over I
 
 ## Features
 
-- **Whole-chat downloads** — reels, posts, carousels, stories, and shared links from any DM thread
-- **Parallel downloads** with a live progress bar
-- **Download history** — skips anything already saved, so re-runs only fetch new media
+- **Whole-chat downloads** — shared reels, posts, carousels, stories, disappearing photos/videos, and any pasted post/reel/IGTV link in a DM thread
+- **Parallel downloads** (4 workers) with a live progress bar, plus a short delay per request to stay under Instagram's rate limits
+- **Download history** — remembers everything already saved (even if you later delete the file), so re-runs only fetch new media
 - **Saved sessions** — log in once; handles 2FA and Instagram login challenges
 - **Remembers your chats** — re-run the same chats with one keypress
 - Packaged as a standalone `.exe` with PyInstaller
